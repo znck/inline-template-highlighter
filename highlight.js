@@ -62,7 +62,7 @@ const output = md.render(
 )
 
 FS.writeFileSync(
-  Path.resolve(__dirname, 'dist/index.html'),
+  Path.resolve(__dirname, 'docs/index.html'),
   `
 <!DOCTYPE html>
 <html lang="en">
